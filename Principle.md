@@ -13,5 +13,5 @@
 ## 接口隔离原则（ Interface Segregation Principle (ISP)）
 >不同类型功能放在不同接口中，而不是放在一个总接口内。通过搭积木的方式来按需实现，降低耦合。对外部而言也隐藏内部实现细节
 ## 依赖倒置原则（Dependency Inversion Principle (DIP)）
->高层模块不依赖地产模块，依赖抽象而不依赖实现。针对接口编程，例子：Factory.getProcesser('')，Factory内部可自由切换实现而不影响外部
+>高层模块不依赖底层模块，依赖抽象而不依赖实现。针对接口编程，例子：Factory.getProcesser('')，Factory内部可自由切换实现而不影响外部
 
